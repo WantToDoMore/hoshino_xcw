@@ -19,6 +19,7 @@ PYS ={335557741}            #高级权限用户的QQ号
 NICKNAME = r'镜华|小仓唯|露娜|at,qq=2380695163'           # 设置bot的昵称，at，qq=xxxxxxxx处为bot的QQ号,呼叫昵称等同@bot,推荐修改
 IP = '333.33.33.3'                                      #修改为你的服务器ip,推荐修改
 public_address = '333.33.33.3:9222'                     #修改为你的服务器ip+端口,推荐修改
+PassWord = '123456'                                           #登录一些只限维护人知道密码的网页
 ###################################
 '''
 -----上方内容请务必结合注释修改-----
@@ -40,7 +41,9 @@ shitu_api = ''
 jjc_api = ""
 tenxun_api_ID = '2154581933'
 tenxun_api_KEY = 'gtv1yCMqKSKSoeuD'
-baidu_api = ''                                         
+baidu_api_ID = ''    
+baidu_api_KEY = ''
+baidu_api_SECRET = ''                                 
 ###################################
 '''-----------pixiv账号----------'''
 pixiv_id = ''                           #pixiv账号,无需会员
@@ -87,17 +90,15 @@ MODULES_ON = {
     #'shitu',#识图功能需要apikey
     'shifan',#识别番剧
     'battle_report',#会战报告生成，需要修改路径
-    'bot_manager_web',#新版webmanage
     'voiceguess',#猜语音
     #'eclanrank',
     'aichat',#需要apikey，用前修改概率
-    #'QA',#问答功能,下方有集成优化版
     'hiumsentences',#网抑云语录
     'generator',#营销文生成等五个小功能
     #'ontree_scheduler',#挂树优化提醒
     #'eqa',#问答功能2
     'russian',#俄罗斯轮盘赌
-    'explosion',#每天一发惠惠
+    #'explosion',#每天一发惠惠
     'boxcolle',#BOX查询
     'timeline',#轴上传
     'picapi',#自定义拉取图片
@@ -105,10 +106,8 @@ MODULES_ON = {
     #'bilisearchspider',#b站订阅
     'pcravatarguess',#图片猜角色
     'pcrdescguess',#通过角色描述猜角色,需要设置go-cqhttp的心跳间隔,推荐3
-    #'shebot',##集合了许多插件,请勿和shebot及QA同时开启
-    #'nmsl',#抽象抽象抽抽抽像像像
+    'nmsl',#抽象抽象抽抽抽像像像
     'baidupan',#百度盘解析
-    'calendar',#查看日程表,实用的全服务器可用的功能
     'meme_web',#memegenerator的web化,勿同时开启
     'pcrmiddaymusic',#公主连结午间音乐
     'image_generate',#取代原image
@@ -129,6 +128,12 @@ MODULES_ON = {
     'pcrsealkiller',#海豹杀手
     'setu_mix',#俩涩图插件合二为一
     #'hoshino_training',#慎重启用,前往https://github.com/zyujs/hoshino_training查看说明
-    'rss',#适用于Hoshino v2的rss订阅插件,详情https://github.com/zyujs/rss
+    #'rss',#适用于Hoshino v2的rss订阅插件,详情https://github.com/zyujs/rss
     'Genshin_Impact',#原神系列
+    #'pcravatarguesskiller',#人机猜头像，通常用于群有两个及以上Bot
+    #'pcrdescguesskiller',#人机猜角色，通常用于群有两个及以上Bot
+    'pcr_calendar',#全服务器通用日历表，关键词为日历
+    #'shebot',#插件合集，来源https://github.com/pcrbot/plugins-for-Hoshino,其中的接头需要百度云api
+    'weather'#天气插件
+    #'snitchgenerator'#需要安装字体，位于XCW\hoshino\hoshino\modules\snitchgenerator\fonts
 }
