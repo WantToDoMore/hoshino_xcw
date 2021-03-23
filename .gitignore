@@ -1,7 +1,7 @@
 # Config Files
 
 XCW/res/
-XCW/miraiGO/
+XCW/go-cqhttp/
 XCW/cq-picsearcher-bot/
 XCW/miraiOK/
 XCW/环境/
@@ -10,9 +10,12 @@ XCW/NEW/
 XCW/实验室/
 XCW/ffmpeg/
 XCW/record/
-XCW/hoshino/hoshino/modules/authMS/
-
-
+XCW/Hoshino/hoshino/modules/authMS/
+XCW/yobot/
+#XCW/Hoshino/hoshino/config/
+#XCW/Hoshino/hoshino/modules/pjjc2/
+#XCW/Hoshino/hoshino/modules/meme_web/meme/
+#XCW/Hoshino/hoshino/modules/botmanage/group_invite.py
 # ip地址
 
 
